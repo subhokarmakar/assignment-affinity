@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..800;1,300..800&display=swap");
+
+body,
+#pollwidgetapp {
+  font-family: "Montserrat", sans-serif;
+}
+
+#pollwidgetapp h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#pollwidgetapp button {
+  font-weight: 400;
+}
+
+#pollwidgetapp {
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#pollwidgetapp ul {
+  list-style: none;
+  padding: 0;
+}
+
+#pollwidgetapp li {
+  margin-bottom: 1rem;
+}
+
+#pollwidgetapp button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background-color: #0034ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+#pollwidgetapp button:hover {
+  background-color: #00ffe2;
+  color: #0034ff;
+  font-weight: 700;
+}
+
+#pollwidgetapp h2 {
+  text-align: center;
+}
+
+#pollresultsdiv {
+  margin-top: 3rem;
+}
+
+#pollresultsdiv h2 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+#pollresultsdiv p {
+  margin: 5px 0;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  #pollwidgetapp {
+    width: 100%;
+    padding: 10px;
+  }
+}
